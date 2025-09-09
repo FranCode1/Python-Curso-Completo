@@ -1,0 +1,1 @@
+Encapsulamiento y propiedades

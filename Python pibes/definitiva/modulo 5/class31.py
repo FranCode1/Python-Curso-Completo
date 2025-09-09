@@ -1,0 +1,1 @@
+Iteradores personalizados (__iter__, __next__)

@@ -1,0 +1,1 @@
+Metaprogramación (getattr, introspección, reflexión)
