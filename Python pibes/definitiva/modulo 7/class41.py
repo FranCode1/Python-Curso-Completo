@@ -1,0 +1,1 @@
+Entornos virtuales y gestión de dependencias (venv, pip)

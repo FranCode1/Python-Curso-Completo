@@ -1,0 +1,1 @@
+Casos de uso prácticos: operaciones I/O, scraping, tareas paralelas
