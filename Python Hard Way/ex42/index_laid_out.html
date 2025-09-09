@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% if greeting %}
+        <p>
+            I just wanted to say 
+            <em>{{ greeting }}</em>.
+        </p>
+    {% else %}
+        <p><em>Hello</em>, world!</p>
+    {% endif %}
+{% endblock %}

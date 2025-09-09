@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Fill Out This Form</h1>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="/hello" method="POST">
+        <label>A Greeting:</label>
+        <input type="text" name="greet" value="{{ greet }}">
+        <br/>
+        <label>Your Name:</label>
+        <input type="text" name="name" value="{{ name }}">
+        <br/>
+        <input type="submit" value="Send">
+    </form>
+{% endblock %}

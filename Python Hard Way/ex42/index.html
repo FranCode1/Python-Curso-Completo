@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gothons Of Planet Percal #25</title>
+</head>
+<body>
+
+    <h1>Fill Out This Form</h1>
+
+    <!-- Formulario que envía un saludo y nombre al servidor usando POST -->
+    <form action="/hello" method="POST">
+        <label>A Greeting:</label>
+        <input type="text" name="greet">
+        <br/>
+        <label>Your Name:</label>
+        <input type="text" name="name">
+        <br/>
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- Condición Jinja2 que muestra un mensaje según si se recibe "greeting" -->
+    {% if greeting %}
+        <p>I just wanted to say <em>{{ greeting }}</em></p>
+    {% else %}
+        <p><em>Hello</em>, world!</p>
+    {% endif %}
+
+</body>
+</html>
