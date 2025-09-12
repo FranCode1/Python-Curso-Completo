@@ -5,3 +5,14 @@
 # • Insertar Gaston en la posicion 1
 # • Eliminar un elemento con remove() y otro con pop()
 # =====================================================================
+
+lista_vacia = []
+
+lista_vacia.append("Joaquin")
+lista_vacia.append("Alexander")
+lista_vacia.append("Perry")
+
+lista_vacia.insert(1, "Gaston")
+
+lista_vacia.remove("Gaston")
+lista_vacia.pop()
