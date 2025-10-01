@@ -1,1 +1,0 @@
-from .game import Room  # expone Room al importar el paquete
