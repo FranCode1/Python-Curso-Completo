@@ -125,4 +125,5 @@
 
 ---
 
-agregar clase de como hacer un postmortem(archivo de advertencia, luego de que se encontro y error y como se soluciono, y que reglas seguir para evitar futuros bugs a futuro)
+- agregar clase de como hacer un postmortem(archivo de advertencia, luego de que se encontro y error y como se soluciono, y que reglas seguir para evitar futuros bugs a futuro)'
+- agregar clase de como refactorizar
